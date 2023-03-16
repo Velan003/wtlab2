@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-link:hover{
+    color: blue;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 2px solid rgb(40, 26, 240);
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(40, 26, 240);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+.main
+{
+    background: url(./trainwtech.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%; 
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}
+.main h6{
+    font-size: 2rem;
+    font-weight: 50;
+    color: white;
+}
+.card:hover{
+    -webkit-box-shadow: -11px 15px 43px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -11px 15px 43px 0px rgba(0,0,0,0.75);
+box-shadow: -11px 15px 43px 0px rgba(0,0,0,0.75);
+
+}
+.form{
+    background-color: blueviolet;
+    text-align: center;
+}
+.news{
+    background-color:cornflowerblue
+}
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.news::placeholder{
+    color: white;
+}
+.news p{
+    margin: 0;
+}
+.fab{
+    font-size: 2.5rem;
+    cursor: pointer; 
+    padding-right: 5px;
+}
+.fa-brands:hover{
+    color: red;
+}
+.pb-3:hover{
+    color:brown;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor:pointer;
+  }
+
